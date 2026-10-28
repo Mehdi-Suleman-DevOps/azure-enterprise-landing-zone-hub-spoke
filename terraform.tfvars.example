@@ -1,0 +1,10 @@
+resource_group_name = "rg-enterprise-network-prod-001"
+location            = "eastus2"
+
+tags = {
+  Architecture = "Hub-and-Spoke"
+  Framework    = "Microsoft CAF"
+  Environment  = "Production"
+  ManagedBy    = "Terraform"
+  Owner        = "Mehdi-Suleman-DevOps"
+}
